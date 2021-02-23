@@ -1,0 +1,21 @@
+.pokedex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  border: 2px solid lightgrey;
+  margin: 10px;
+
+  &.active {
+    border-color: red;
+  }
+
+  &:hover {
+    border-color: red;
+    cursor: pointer;
+  }
+}
